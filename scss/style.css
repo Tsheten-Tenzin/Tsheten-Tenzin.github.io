@@ -1,0 +1,1874 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.header-section .container-fluid {
+  background-image: url(../images/header-section-background-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.header-section .container-fluid .hero-section {
+  text-align: center;
+  padding: 300px;
+}
+.header-section .container-fluid .hero-section h1 {
+  font-size: 200px;
+  font-weight: 700;
+  text-shadow: 10px 10px 15px #28282B;
+  font-family: "Dancing Script", cursive;
+}
+.header-section .container-fluid .hero-section h1 span {
+  font-family: "Dancing Script", cursive;
+  text-shadow: 10px 10px 15px #ffffff;
+}
+.header-section .container-fluid .hero-section h4 {
+  font-weight: 400;
+  font-style: italic;
+}
+.header-section .container-fluid .hero-section .btn-primary {
+  width: 150px;
+  margin-top: 30px;
+  transition: all 0.4s ease;
+  border: 1px solid transparent;
+}
+.header-section .container-fluid .hero-section .btn-primary:hover {
+  background-color: #ffffff;
+  color: #28282B;
+  border: 1px solid #28282B;
+}
+.header-section .container-fluid .heading-menu {
+  padding: 15px 30px;
+  position: fixed;
+  width: 100%;
+}
+.header-section .container-fluid .heading-menu .bg-tranparent .logo {
+  width: 20%;
+  transition: all 0.7s ease;
+  margin-right: 20px;
+}
+.header-section .container-fluid .heading-menu .bg-tranparent .logo a {
+  font-family: "Dancing Script", cursive;
+  font-size: 25px;
+}
+.header-section .container-fluid .heading-menu .bg-tranparent .logo:hover {
+  transform: scale(1.2);
+}
+.header-section .container-fluid .heading-menu .bg-tranparent .navbar-collapse {
+  width: 40%;
+}
+.header-section .container-fluid .heading-menu .bg-tranparent .navbar-collapse .nav-item:hover {
+  border-bottom: 1px solid #28282B;
+  gap: 40px;
+  transition: all 0.4s ease;
+  transform: scale(1.1);
+}
+.header-section .container-fluid .heading-menu .bg-tranparent .navbar-collapse .nav-item:last-child {
+  border-bottom: transparent;
+}
+.header-section .container-fluid .heading-menu .bg-tranparent .navbar-collapse .nav-item:last-child .dropdown-menu a {
+  font-size: 13px;
+}
+.header-section .container-fluid .heading-menu .bg-tranparent .navbar-collapse .nav-item:last-child .dropdown-menu a:hover {
+  color: #0066FF;
+}
+.header-section .container-fluid .heading-menu .nav-btn {
+  width: 200px;
+}
+.header-section .container-fluid .heading-menu .nav-btn .d-flex {
+  float: right;
+  margin-left: 70px;
+}
+.header-section .container-fluid .heading-menu .nav-btn .d-flex .me-2 {
+  width: 35%;
+}
+.header-section .container-fluid .heading-menu .nav-btn .d-flex .text-white {
+  width: 150px;
+  margin: 0px 10px;
+  transition: all 0.4s ease;
+}
+.header-section .container-fluid .heading-menu .nav-btn .d-flex .text-white:hover {
+  background-color: #0066FF;
+  color: #ffffff !important;
+  border: transparent;
+}
+.header-section .container-fluid .heading-menu .nav-btn .d-flex .btn-primary {
+  width: 150px;
+  transition: all 0.4s ease;
+  border: 1px solid transparent;
+}
+.header-section .container-fluid .heading-menu .nav-btn .d-flex .btn-primary:hover {
+  background-color: #ffffff;
+  color: #28282B;
+  border: 1px solid #28282B;
+}
+
+.about-section {
+  background-color: #F8FBFF;
+}
+.about-section .container {
+  display: flex;
+  gap: 50px;
+  padding: 100px 0px;
+  width: 100%;
+  margin: 0 auto;
+}
+.about-section .container .about-imgcontent {
+  width: 50%;
+  text-align: end;
+}
+.about-section .container .about-imgcontent img {
+  border-radius: 100%;
+  max-height: 500px;
+  box-shadow: 5px 5px 15px #28282B;
+  margin: 50px;
+}
+.about-section .container .about-details {
+  text-align: center;
+  width: 50%;
+}
+.about-section .container .about-details h2 {
+  padding: 10px 0px;
+  font-family: "Dancing Script", cursive;
+  font-size: 4rem;
+}
+.about-section .container .about-details p {
+  padding: 10px 10px;
+  margin-bottom: 0;
+}
+.about-section .container .about-details .content {
+  padding: 10px 10px;
+  line-height: 25px;
+  text-align: justify;
+}
+.about-section .container .about-details .about-btns {
+  padding: 10px 0px;
+  margin-top: 30px;
+}
+.about-section .container .about-details .about-btns .btn-light {
+  width: 150px;
+  margin: 0px 10px;
+  border: 1px solid #000000;
+  transition: all 0.4s ease;
+}
+.about-section .container .about-details .about-btns .btn-light:hover {
+  background-color: #0066FF;
+  color: #ffffff !important;
+  border: transparent;
+}
+.about-section .container .about-details .about-btns .btn-primary {
+  width: 150px;
+  transition: all 0.4s ease;
+  border: 1px solid transparent;
+}
+.about-section .container .about-details .about-btns .btn-primary:hover {
+  background-color: #ffffff;
+  color: #28282B;
+  border: 1px solid #28282B;
+}
+
+.resume-section .container {
+  padding: 100px 0px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.resume-section .container h2 {
+  font-size: 54px;
+  padding-bottom: 30px;
+  font-family: "Dancing Script", cursive;
+}
+.resume-section .container .experiences {
+  display: flex;
+  gap: 100px;
+  padding-bottom: 80px;
+}
+.resume-section .container .experiences .exp-head {
+  text-align: center;
+  width: 30%;
+}
+.resume-section .container .experiences .exp-head h2 {
+  font-size: 40px;
+  font-family: none !important;
+}
+.resume-section .container .experiences .exp-cards {
+  width: 70%;
+}
+.resume-section .container .experiences .exp-cards .sub-head {
+  text-align: justify;
+  padding: 20px;
+}
+.resume-section .container .experiences .exp-cards .sub-head h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.resume-section .container .experiences .exp-cards .sub-head p {
+  font-style: italic;
+}
+.resume-section .container .experiences .exp-cards .main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.resume-section .container .experiences .exp-cards .main-content .text-center {
+  border-radius: 5px;
+  border: transparent;
+  border-bottom: 1px solid;
+}
+.resume-section .container .education {
+  margin-top: 50px;
+  display: flex;
+  gap: 100px;
+}
+.resume-section .container .education .edu-head {
+  text-align: left;
+  padding: 30px;
+  width: 30%;
+}
+.resume-section .container .education .edu-head h2 {
+  font-size: 40px;
+  font-family: "Lato", sans-serif;
+}
+
+.skills-section {
+  background-color: #F8FBFF;
+}
+.skills-section .container {
+  width: 100%;
+  margin: 0 auto;
+}
+.skills-section .container .skills-heading {
+  text-align: center;
+}
+.skills-section .container .skills-heading h2 {
+  font-size: 54px;
+  font-family: "Dancing Script", cursive;
+  padding-top: 50px;
+}
+.skills-section .container .skills-content {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+.skills-section .container .skills-content .hard-skills {
+  width: 50%;
+  margin: 50px;
+}
+.skills-section .container .skills-content .hard-skills .list-group {
+  border-radius: 40px;
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(1) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-right: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(1):hover {
+  transform: translate(30px);
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(2) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-right: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(2):hover {
+  transform: translate(30px);
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(3) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-right: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(3):hover {
+  transform: translate(30px);
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(4) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-right: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(4):hover {
+  transform: translate(30px);
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(5) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-right: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .hard-skills .list-group .list-group-item-action:nth-child(5):hover {
+  transform: translate(30px);
+}
+.skills-section .container .skills-content .soft-skills {
+  width: 50%;
+  margin: 50px;
+}
+.skills-section .container .skills-content .soft-skills .list-group {
+  border-radius: 40px;
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(1) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-left: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(1):hover {
+  transform: translate(-30px);
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(2) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-left: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(2):hover {
+  transform: translate(-30px);
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(3) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-left: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(3):hover {
+  transform: translate(-30px);
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(4) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-left: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(4):hover {
+  transform: translate(-30px);
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(5) {
+  transition: all 0.5s ease-in-out;
+  margin: 10px;
+  border: none;
+  border-left: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px;
+}
+.skills-section .container .skills-content .soft-skills .list-group .list-group-item-action:nth-child(5):hover {
+  transform: translate(-30px);
+}
+
+.project-section {
+  background-color: #F8FBFF;
+  padding: 50px 0px 100px;
+}
+.project-section .container {
+  width: 100%;
+  margin: 0 auto;
+}
+.project-section .container .p-headings {
+  padding-bottom: 50px;
+  text-align: center;
+}
+.project-section .container .p-headings h2 {
+  font-size: 54px;
+  font-family: "Dancing Script", cursive;
+}
+.project-section .container .p-headings p {
+  font-style: italic;
+  font-size: 20px;
+}
+.project-section .container .mx-auto {
+  margin-top: 30px;
+  justify-content: center;
+}
+.project-section .container .mx-auto button {
+  background-color: #000000;
+  width: 150px;
+  border: 1px solid transparent;
+}
+.project-section .container .mx-auto button:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
+}
+
+.testimonial-section .container-fluid {
+  padding: 100px 0px;
+  width: 100%;
+  margin: 0 auto;
+}
+.testimonial-section .container-fluid .testi-header {
+  text-align: center;
+  padding: 20px 30px 50px;
+}
+.testimonial-section .container-fluid .testi-header h2 {
+  font-size: 54px;
+  transition: all 0.4s linear;
+  color: #28282B;
+  font-family: "Dancing Script", cursive;
+}
+.testimonial-section .container-fluid .testi-header p {
+  line-height: 25px;
+  font-size: 20px;
+}
+.testimonial-section .container-fluid .testi-contents {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.testimonial-section .container-fluid .testi-contents .card h5 {
+  font-style: italic;
+}
+
+.contact-section {
+  background-color: #F8FBFF;
+}
+.contact-section .container {
+  padding: 50px;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact-section .container .contact-info {
+  display: flex;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+.contact-section .container .contact-info .info-details {
+  width: 100%;
+}
+.contact-section .container .contact-info .info-details .info-headings {
+  text-align: center;
+  margin: 50px;
+}
+.contact-section .container .contact-info .info-details .info-headings h2 {
+  font-size: 54px;
+  color: #28282B;
+  font-family: "Dancing Script", cursive;
+}
+.contact-section .container .contact-info .info-details .info-headings p {
+  font-style: italic;
+  font-size: 20px;
+}
+.contact-section .container .contact-info .info-details .info-lists {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.contact-section .container .contact-info .info-details .info-lists i {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.contact-section .container .contact-info .info-details .info-lists i:hover {
+  transform: translate(30px);
+}
+.contact-section .container .contact-info .info-details .info-lists .material-symbols-outlined {
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.contact-section .container .contact-info .info-details .info-lists .material-symbols-outlined:hover {
+  transform: translate(30px);
+}
+.contact-section .container .contact-info .contactmap {
+  margin: 50px;
+}
+.contact-section .container .contact-info .contactmap .map iframe {
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px #ffffff;
+}
+.contact-section .container .contact-info .contactmap .social-icons {
+  letter-spacing: 22px;
+  color: #28282B;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-facebook {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-facebook:hover {
+  transform: scale(1.1);
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-instagram {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-instagram:hover {
+  transform: scale(1.1);
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-tiktok {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-tiktok:hover {
+  transform: scale(1.1);
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-discord {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-discord:hover {
+  transform: scale(1.1);
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-github {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-github:hover {
+  transform: scale(1.1);
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-wordpress {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-wordpress:hover {
+  transform: scale(1.1);
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-linkedin {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.contact-section .container .contact-info .contactmap .social-icons .fa-linkedin:hover {
+  transform: scale(1.1);
+}
+
+.footer-section {
+  background-color: #000000;
+}
+.footer-section .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0px;
+  width: 100%;
+  margin: 0 auto;
+}
+.footer-section .container .social-icons {
+  letter-spacing: 10px;
+  color: #FAF9F6;
+  font-size: 20px;
+}
+.footer-section .container .social-icons .fa-facebook {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-section .container .social-icons .fa-facebook:hover {
+  transform: scale(1.1);
+}
+.footer-section .container .social-icons .fa-instagram {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-section .container .social-icons .fa-instagram:hover {
+  transform: scale(1.1);
+}
+.footer-section .container .social-icons .fa-tiktok {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-section .container .social-icons .fa-tiktok:hover {
+  transform: scale(1.1);
+}
+.footer-section .container .social-icons .fa-discord {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-section .container .social-icons .fa-discord:hover {
+  transform: scale(1.1);
+}
+.footer-section .container .social-icons .fa-github {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-section .container .social-icons .fa-github:hover {
+  transform: scale(1.1);
+}
+.footer-section .container .social-icons .fa-wordpress {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-section .container .social-icons .fa-wordpress:hover {
+  transform: scale(1.1);
+}
+.footer-section .container .social-icons .fa-linkedin {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.footer-section .container .social-icons .fa-linkedin:hover {
+  transform: scale(1.1);
+}
+.footer-section .container .footer-content ul {
+  list-style: none;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+.footer-section .container .footer-content ul li {
+  transition: all 1s ease-in-out;
+}
+.footer-section .container .footer-content ul li:hover {
+  transform: scale(1.1);
+}
+.footer-section .container .footer-content ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-section .container .logo-icon {
+  transition: all 0.7s ease;
+  margin-right: 20px;
+  color: #ffffff;
+}
+.footer-section .container .logo-icon a {
+  font-family: "Dancing Script", cursive;
+  font-size: 20px;
+}
+.footer-section .container .logo-icon:hover {
+  transform: translate(20px, 0px);
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  .header-section {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .logo {
+    width: 80%;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .logo a {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .header-section .container-fluid .heading-menu .nav-btn {
+    display: none;
+  }
+  .header-section .container-fluid .hero-section {
+    padding: 100px;
+  }
+  .header-section .container-fluid .hero-section h4 {
+    font-size: 60px;
+  }
+  .header-section .container-fluid .hero-section .btn-primary {
+    width: 40%;
+    font-size: 40px;
+  }
+  .about-section {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .about-section .container {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 0px;
+  }
+  .about-section .container .about-imgcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .about-section .container .about-details {
+    width: 100%;
+  }
+  .about-section .container .about-details h2 {
+    font-size: 80px;
+  }
+  .about-section .container .about-details p {
+    font-size: 40px;
+  }
+  .about-section .container .about-details .content {
+    line-height: 50px;
+  }
+  .about-section .container .about-details .about-btns {
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  .about-section .container .about-details .about-btns .btn-light {
+    width: 50%;
+    font-size: 35px;
+  }
+  .about-section .container .about-details .about-btns .btn-primary {
+    width: 50%;
+    font-size: 35px;
+  }
+  .resume-section {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .resume-section .container {
+    width: 100%;
+  }
+  .resume-section .container h2 {
+    font-size: 80px;
+  }
+  .resume-section .container .experiences {
+    gap: 0;
+  }
+  .resume-section .container .experiences .exp-head {
+    display: none;
+  }
+  .resume-section .container .experiences .exp-cards {
+    width: 100%;
+  }
+  .resume-section .container .experiences .exp-cards .sub-head {
+    display: none;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body .card-title {
+    font-size: 50px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body h6 {
+    font-size: 45px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body ul li p {
+    font-size: 40px;
+  }
+  .resume-section .container .education {
+    display: none;
+  }
+  .resume-section .container .education .edu-head h2 {
+    font-size: 80px;
+  }
+  .resume-section .container .education .edu-head p {
+    font-size: 40px;
+  }
+  .skills-section .container .skills-heading h2 {
+    font-size: 80px;
+  }
+  .skills-section .container .skills-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .skills-section .container .skills-content .hard-skills {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .skills-section .container .skills-content .hard-skills .list-group .list-group-item-action .justify-content-between h5 {
+    font-size: 40px;
+  }
+  .skills-section .container .skills-content .hard-skills .list-group .list-group-item-action p {
+    font-size: 35px;
+  }
+  .skills-section .container .skills-content .soft-skills {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .skills-section .container .skills-content .soft-skills .list-group .list-group-item-action .justify-content-between h5 {
+    font-size: 40px;
+  }
+  .skills-section .container .skills-content .soft-skills .list-group .list-group-item-action p {
+    font-size: 35px;
+  }
+  .project-section .container .p-headings h2 {
+    font-size: 80px;
+  }
+  .project-section .container .p-headings p {
+    font-size: 40px;
+  }
+  .project-section .container .mx-auto {
+    justify-content: center;
+  }
+  .project-section .container .mx-auto .btn-primary {
+    width: 500px;
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-header h2 {
+    font-size: 80px;
+  }
+  .testimonial-section .container-fluid .testi-header p {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) {
+    width: 80% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) .card-body h5 {
+    font-size: 60px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) .card-body p {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) {
+    width: 80% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) .card-body h5 {
+    font-size: 60px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) .card-body p {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) {
+    width: 80% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) .card-body h5 {
+    font-size: 60px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) .card-body p {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) {
+    width: 80% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) .card-body h5 {
+    font-size: 60px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) .card-body p {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-section .container .contact-info .info-details .info-headings h2 {
+    font-size: 80px;
+  }
+  .contact-section .container .contact-info .info-details .info-headings p {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info .info-details .info-lists i {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info .info-details .info-lists .material-symbols-outlined {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info .contactmap .social-icons i {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .form-label {
+    font-size: 35px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .is-valid {
+    height: 90px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation {
+    height: 170px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .input-group-text {
+    font-size: 45px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .invalid-feedback {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-label {
+    font-size: 35px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-control {
+    height: 90px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-text {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .form-floating .form-select {
+    font-size: 35px;
+    height: 100px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .form-check .text-success {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .btn-primary {
+    font-size: 35px;
+  }
+  .footer-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section .container .social-icons {
+    text-align: center;
+  }
+  .footer-section .container .social-icons i {
+    font-size: 35px;
+  }
+  .footer-section .container .footer-content ul {
+    text-align: center;
+  }
+  .footer-section .container .logo-icon {
+    text-align: center;
+  }
+  body {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media (min-width: 321px) and (max-width: 425px) {
+  .header-section {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .logo {
+    width: 80%;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .logo a {
+    font-size: 40px;
+    font-weight: 700;
+  }
+  .header-section .container-fluid .heading-menu .nav-btn {
+    display: none;
+  }
+  .header-section .container-fluid .hero-section {
+    padding: 100px;
+  }
+  .header-section .container-fluid .hero-section h4 {
+    font-size: 60px;
+  }
+  .header-section .container-fluid .hero-section .btn-primary {
+    width: 40%;
+    font-size: 40px;
+  }
+  .about-section {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .about-section .container {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 0px;
+  }
+  .about-section .container .about-imgcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .about-section .container .about-details {
+    width: 100%;
+    padding: 20px;
+  }
+  .about-section .container .about-details h2 {
+    font-size: 80px;
+  }
+  .about-section .container .about-details p {
+    font-size: 40px;
+  }
+  .about-section .container .about-details .content {
+    line-height: 50px;
+  }
+  .about-section .container .about-details .about-btns {
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+  .about-section .container .about-details .about-btns .btn-light {
+    width: 50%;
+    font-size: 35px;
+  }
+  .about-section .container .about-details .about-btns .btn-primary {
+    width: 50%;
+    font-size: 35px;
+  }
+  .resume-section {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .resume-section .container {
+    width: 100%;
+  }
+  .resume-section .container h2 {
+    font-size: 80px;
+  }
+  .resume-section .container .experiences {
+    gap: 0;
+  }
+  .resume-section .container .experiences .exp-head {
+    display: none;
+  }
+  .resume-section .container .experiences .exp-cards {
+    width: 100%;
+  }
+  .resume-section .container .experiences .exp-cards .sub-head {
+    display: none;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body .card-title {
+    font-size: 50px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body h6 {
+    font-size: 45px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body ul li p {
+    font-size: 40px;
+  }
+  .resume-section .container .education {
+    display: none;
+  }
+  .resume-section .container .education .edu-head h2 {
+    font-size: 80px;
+  }
+  .resume-section .container .education .edu-head p {
+    font-size: 40px;
+  }
+  .skills-section .container .skills-heading h2 {
+    font-size: 80px;
+  }
+  .skills-section .container .skills-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .skills-section .container .skills-content .hard-skills {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .skills-section .container .skills-content .hard-skills .list-group .list-group-item-action .justify-content-between h5 {
+    font-size: 40px;
+  }
+  .skills-section .container .skills-content .hard-skills .list-group .list-group-item-action p {
+    font-size: 35px;
+  }
+  .skills-section .container .skills-content .soft-skills {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .skills-section .container .skills-content .soft-skills .list-group .list-group-item-action .justify-content-between h5 {
+    font-size: 40px;
+  }
+  .skills-section .container .skills-content .soft-skills .list-group .list-group-item-action p {
+    font-size: 35px;
+  }
+  .project-section .container .p-headings h2 {
+    font-size: 80px;
+  }
+  .project-section .container .p-headings p {
+    font-size: 40px;
+  }
+  .project-section .container .mx-auto {
+    justify-content: center;
+  }
+  .project-section .container .mx-auto .btn-primary {
+    width: 500px;
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-header h2 {
+    font-size: 80px;
+  }
+  .testimonial-section .container-fluid .testi-header p {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) {
+    width: 80% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) .card-body h5 {
+    font-size: 60px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) .card-body p {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) {
+    width: 80% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) .card-body h5 {
+    font-size: 60px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) .card-body p {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) {
+    width: 80% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) .card-body h5 {
+    font-size: 60px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) .card-body p {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) {
+    width: 80% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) .card-body h5 {
+    font-size: 60px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) .card-body p {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-section .container .contact-info .info-details .info-headings h2 {
+    font-size: 80px;
+  }
+  .contact-section .container .contact-info .info-details .info-headings p {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info .info-details .info-lists i {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info .info-details .info-lists .material-symbols-outlined {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info .contactmap .social-icons i {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .form-label {
+    font-size: 35px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .is-valid {
+    height: 90px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation {
+    height: 170px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .input-group-text {
+    font-size: 45px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .invalid-feedback {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-label {
+    font-size: 35px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-control {
+    height: 90px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-text {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .form-floating .form-select {
+    font-size: 35px;
+    height: 100px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .form-check .text-success {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .btn-primary {
+    font-size: 35px;
+  }
+  .footer-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section .container .social-icons {
+    text-align: center;
+  }
+  .footer-section .container .social-icons i {
+    font-size: 35px;
+  }
+  .footer-section .container .footer-content ul {
+    text-align: center;
+  }
+  .footer-section .container .logo-icon {
+    text-align: center;
+  }
+  body {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media (min-width: 426px) and (max-width: 768px) {
+  .header-section .container-fluid .heading-menu {
+    padding: 0px;
+    width: 95%;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .logo a {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  .header-section .container-fluid .hero-section {
+    padding: 100px;
+  }
+  .header-section .container-fluid .hero-section h1 {
+    font-size: 100px;
+  }
+  .header-section .container-fluid .hero-section h4 {
+    font-size: 20px;
+  }
+  .header-section .container-fluid .hero-section .btn-primary {
+    width: 30%;
+    font-size: 13px;
+  }
+  .about-section .container {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 0px;
+  }
+  .about-section .container .about-imgcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .about-section .container .about-imgcontent img {
+    height: 350px;
+  }
+  .about-section .container .about-details {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .about-section .container .about-details h2 {
+    font-size: 40px;
+  }
+  .about-section .container .about-details p {
+    font-size: 18px;
+  }
+  .about-section .container .about-details .about-btns {
+    padding: 20px;
+    gap: 20px;
+  }
+  .about-section .container .about-details .about-btns .btn-light {
+    font-size: 15px;
+  }
+  .about-section .container .about-details .about-btns .btn-primary {
+    font-size: 15px;
+  }
+  .resume-section .container {
+    width: 100%;
+  }
+  .resume-section .container h2 {
+    font-size: 40px;
+  }
+  .resume-section .container .experiences {
+    gap: 0;
+  }
+  .resume-section .container .experiences .exp-head h2 {
+    font-size: 35px;
+  }
+  .resume-section .container .experiences .exp-cards {
+    width: 100%;
+  }
+  .resume-section .container .experiences .exp-cards .sub-head h4 {
+    font-size: 20px;
+  }
+  .resume-section .container .experiences .exp-cards .sub-head p {
+    font-size: 18px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body .card-title {
+    font-size: 20px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body h6 {
+    font-size: 20px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body ul li p {
+    font-size: 18px;
+  }
+  .resume-section .container .education {
+    gap: 0;
+  }
+  .resume-section .container .education .edu-head h2 {
+    font-size: 30px;
+  }
+  .resume-section .container .education .edu-table table {
+    font-size: 15px;
+  }
+  .skills-section .container .skills-heading h2 {
+    font-size: 40px;
+  }
+  .skills-section .container .skills-content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .skills-section .container .skills-content .hard-skills {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .skills-section .container .skills-content .hard-skills .list-group .list-group-item-action .justify-content-between h5 {
+    font-size: 18px;
+  }
+  .skills-section .container .skills-content .hard-skills .list-group .list-group-item-action p {
+    font-size: 17px;
+  }
+  .skills-section .container .skills-content .soft-skills {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .skills-section .container .skills-content .soft-skills .list-group .list-group-item-action .justify-content-between h5 {
+    font-size: 18px;
+  }
+  .skills-section .container .skills-content .soft-skills .list-group .list-group-item-action p {
+    font-size: 17px;
+  }
+  .project-section .container .p-headings h2 {
+    font-size: 40px;
+  }
+  .project-section .container .p-headings p {
+    font-size: 18px;
+  }
+  .project-section .container .mx-auto {
+    justify-content: center;
+  }
+  .project-section .container .mx-auto .btn-primary {
+    width: 100px;
+    font-size: 15px;
+  }
+  .testimonial-section .container-fluid .testi-header h2 {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-header p {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) {
+    width: 60% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) .card-body h5 {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) .card-body p {
+    font-size: 17px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) {
+    width: 60% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) .card-body h5 {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) .card-body p {
+    font-size: 17px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) {
+    width: 60% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) .card-body h5 {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) .card-body p {
+    font-size: 17px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) {
+    width: 60% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) .card-body h5 {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) .card-body p {
+    font-size: 17px;
+  }
+  .contact-section .container .contact-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-section .container .contact-info .info-details .info-headings h2 {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info .info-details .info-headings p {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-info .info-details .info-lists i {
+    font-size: 20px;
+  }
+  .contact-section .container .contact-info .contactmap {
+    margin: 0px;
+    margin-left: 12px;
+  }
+  .contact-section .container .contact-info .contactmap .map {
+    width: 100%;
+  }
+  .contact-section .container .contact-info .contactmap .social-icons i {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .form-label {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .is-valid {
+    height: 50px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation {
+    height: 70px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .input-group-text {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .invalid-feedback {
+    font-size: 14px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-label {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-control {
+    height: 50px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-text {
+    font-size: 14px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .form-floating .form-select {
+    font-size: 18px;
+    height: 50px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .form-check .text-success {
+    font-size: 14px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .btn-primary {
+    font-size: 14px;
+  }
+  .footer-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section .container .social-icons {
+    text-align: center;
+  }
+  .footer-section .container .social-icons i {
+    font-size: 20px;
+  }
+  .footer-section .container .footer-content ul {
+    text-align: center;
+  }
+  .footer-section .container .logo-icon {
+    text-align: center;
+  }
+  .footer-section .container .logo-icon a {
+    font-size: 18px;
+  }
+  body {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .about-section .container {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0px;
+    gap: 0px;
+  }
+  .about-section .container .about-imgcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .about-section .container .about-imgcontent img {
+    height: 350px;
+  }
+  .about-section .container .about-details {
+    width: 100%;
+    margin: 10px 0px;
+  }
+  .about-section .container .about-details h2 {
+    font-size: 40px;
+  }
+  .about-section .container .about-details p {
+    font-size: 18px;
+  }
+  .about-section .container .about-details .about-btns {
+    padding: 20px;
+    gap: 20px;
+  }
+  .about-section .container .about-details .about-btns .btn-light {
+    font-size: 15px;
+  }
+  .about-section .container .about-details .about-btns .btn-primary {
+    font-size: 15px;
+  }
+  .resume-section .container {
+    width: 100%;
+  }
+  .resume-section .container h2 {
+    font-size: 40px;
+  }
+  .resume-section .container .experiences {
+    gap: 0;
+  }
+  .resume-section .container .experiences .exp-head h2 {
+    font-size: 35px;
+  }
+  .resume-section .container .experiences .exp-cards {
+    width: 100%;
+  }
+  .resume-section .container .experiences .exp-cards .sub-head h4 {
+    font-size: 20px;
+  }
+  .resume-section .container .experiences .exp-cards .sub-head p {
+    font-size: 18px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body .card-title {
+    font-size: 20px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body h6 {
+    font-size: 20px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body ul li p {
+    font-size: 18px;
+  }
+  .resume-section .container .education .edu-head h2 {
+    font-size: 40px;
+  }
+  .resume-section .container .education .edu-head p {
+    font-size: 18px;
+  }
+  .skills-section .container .skills-heading h2 {
+    font-size: 40px;
+  }
+  .skills-section .container .skills-content {
+    flex-direction: column;
+    margin-left: 40px;
+  }
+  .skills-section .container .skills-content .hard-skills {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .skills-section .container .skills-content .hard-skills .list-group .list-group-item-action .justify-content-between h5 {
+    font-size: 18px;
+  }
+  .skills-section .container .skills-content .hard-skills .list-group .list-group-item-action p {
+    font-size: 17px;
+  }
+  .skills-section .container .skills-content .soft-skills {
+    width: 90%;
+    margin: 0;
+    padding: 0;
+  }
+  .skills-section .container .skills-content .soft-skills .list-group .list-group-item-action .justify-content-between h5 {
+    font-size: 18px;
+  }
+  .skills-section .container .skills-content .soft-skills .list-group .list-group-item-action p {
+    font-size: 17px;
+  }
+  .project-section .container .p-headings h2 {
+    font-size: 40px;
+  }
+  .project-section .container .p-headings p {
+    font-size: 18px;
+  }
+  .project-section .container .mx-auto {
+    justify-content: center;
+  }
+  .project-section .container .mx-auto .btn-primary {
+    width: 100px;
+    font-size: 15px;
+  }
+  .testimonial-section .container-fluid .testi-header h2 {
+    font-size: 40px;
+  }
+  .testimonial-section .container-fluid .testi-header p {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) {
+    width: 20% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) .card-body h5 {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(1) .card-body p {
+    font-size: 17px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) {
+    width: 20% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) .card-body h5 {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(2) .card-body p {
+    font-size: 17px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) {
+    width: 20% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) .card-body h5 {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(3) .card-body p {
+    font-size: 17px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) {
+    width: 20% !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) .card-body h5 {
+    font-size: 18px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card:nth-child(4) .card-body p {
+    font-size: 17px;
+  }
+  .contact-section .container .contact-info {
+    gap: 20px;
+  }
+  .contact-section .container .contact-info .info-details .info-headings h2 {
+    font-size: 40px;
+  }
+  .contact-section .container .contact-info .info-details .info-headings p {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-info .info-details .info-lists i {
+    font-size: 20px;
+  }
+  .contact-section .container .contact-info .contactmap .social-icons i {
+    font-size: 20px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .form-label {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .is-valid {
+    height: 50px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation {
+    height: 70px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .input-group-text {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .invalid-feedback {
+    font-size: 14px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-label {
+    font-size: 18px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-control {
+    height: 50px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-text {
+    font-size: 14px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .form-floating .form-select {
+    font-size: 18px;
+    height: 50px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .form-check .text-success {
+    font-size: 14px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .btn-primary {
+    font-size: 14px;
+  }
+  .footer-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section .container .social-icons {
+    text-align: center;
+  }
+  .footer-section .container .social-icons i {
+    font-size: 20px;
+  }
+  .footer-section .container .footer-content ul {
+    text-align: center;
+  }
+  .footer-section .container .logo-icon {
+    text-align: center;
+  }
+  .footer-section .container .logo-icon a {
+    font-size: 18px;
+  }
+  body {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+@media (min-width: 2560px) {
+  .header-section .container-fluid .heading-menu .bg-tranparent .logo a {
+    font-size: 50px;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .navbar-nav .nav-link {
+    font-size: 30px;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .nav-btn {
+    width: 500px;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .nav-btn .d-flex .btn-primary {
+    width: 250px;
+    font-size: 22px;
+  }
+  .header-section .container-fluid .heading-menu .bg-tranparent .nav-btn .d-flex .text-white {
+    width: 250px;
+    font-size: 22px;
+  }
+  .header-section .container-fluid .hero-section h4 {
+    font-size: 40px;
+  }
+  .header-section .container-fluid .hero-section h1 {
+    font-size: 300px;
+  }
+  .header-section .container-fluid .hero-section .btn-primary {
+    margin-top: 30px;
+    font-size: 25px;
+    width: 350px;
+  }
+  .about-section .container {
+    flex-direction: column;
+    gap: 0;
+  }
+  .about-section .container .about-imgcontent {
+    width: 100%;
+    text-align: center;
+  }
+  .about-section .container .about-imgcontent img {
+    max-height: 800px;
+    border-radius: 50px;
+  }
+  .about-section .container .about-details {
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .about-section .container .about-details p {
+    font-size: 30px;
+  }
+  .about-section .container .about-details h2 {
+    font-size: 8rem;
+  }
+  .about-section .container .about-details .content {
+    line-height: 35px;
+  }
+  .about-section .container .about-details .about-btns .btn-primary {
+    width: 250px;
+    font-size: 25px;
+  }
+  .about-section .container .about-details .about-btns .btn-light {
+    width: 250px;
+    font-size: 25px;
+  }
+  .resume-section .container h2 {
+    font-size: 130px;
+  }
+  .resume-section .container .experiences .exp-head h2 {
+    font-size: 65px;
+  }
+  .resume-section .container .experiences .exp-cards .sub-head h4 {
+    font-size: 35px;
+  }
+  .resume-section .container .experiences .exp-cards .sub-head p {
+    font-size: 22px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body .card-title {
+    font-size: 26px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body h6 {
+    font-size: 24px;
+  }
+  .resume-section .container .experiences .exp-cards .main-content .text-center .card-body ul {
+    font-size: 24px;
+  }
+  .resume-section .container .education .edu-head h2 {
+    font-size: 70px;
+  }
+  .resume-section .container .education .edu-head p {
+    font-size: 40px;
+  }
+  .resume-section .container .education .edu-table .table th {
+    font-size: 30px;
+  }
+  .resume-section .container .education .edu-table .table td {
+    font-size: 26px;
+  }
+  .skills-section .container .skills-heading h2 {
+    font-size: 130px;
+  }
+  .skills-section .container .skills-content .hard-skills h5 {
+    font-size: 35px;
+  }
+  .skills-section .container .skills-content .hard-skills p {
+    font-size: 26px;
+  }
+  .skills-section .container .skills-content .soft-skills h5 {
+    font-size: 35px;
+  }
+  .skills-section .container .skills-content .soft-skills p {
+    font-size: 26px;
+  }
+  .project-section .container .p-headings h2 {
+    font-size: 130px;
+  }
+  .project-section .container .p-headings p {
+    font-size: 30px;
+  }
+  .project-section .container .mx-auto button {
+    width: 250px;
+    font-size: 25px;
+  }
+  .testimonial-section .container-fluid .testi-header h2 {
+    font-size: 130px;
+  }
+  .testimonial-section .container-fluid .testi-header p {
+    font-size: 30px;
+  }
+  .testimonial-section .container-fluid .testi-contents {
+    gap: 0;
+  }
+  .testimonial-section .container-fluid .testi-contents .card {
+    width: 22rem !important;
+  }
+  .testimonial-section .container-fluid .testi-contents .card .card-body h5 {
+    font-size: 30px;
+  }
+  .testimonial-section .container-fluid .testi-contents .card .card-body p {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-info .info-details .info-headings h2 {
+    font-size: 100px;
+  }
+  .contact-section .container .contact-info .info-details .info-headings p {
+    font-size: 30px;
+  }
+  .contact-section .container .contact-info .info-details .info-lists i {
+    font-size: 26px;
+  }
+  .contact-section .container .contact-info .contactmap .social-icons {
+    font-size: 30px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .form-label {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .is-valid {
+    height: 70px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation {
+    height: 70px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .input-group-text {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-md-4 .has-validation .invalid-feedback {
+    font-size: 20px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-label {
+    font-size: 25px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-control {
+    height: 70px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .mb-3 .form-text {
+    font-size: 20px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .form-floating .form-select {
+    font-size: 25px;
+    height: 70px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .form-check .text-success {
+    font-size: 20px;
+  }
+  .contact-section .container .contact-clientpart .client-inputs .g-3 .col-12 .btn-primary {
+    font-size: 25px;
+    width: 500px;
+  }
+  .footer-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footer-section .container .social-icons {
+    text-align: center;
+  }
+  .footer-section .container .social-icons i {
+    font-size: 30px;
+  }
+  .footer-section .container .footer-content ul {
+    text-align: center;
+    font-size: 40px;
+  }
+  .footer-section .container .logo-icon {
+    text-align: center;
+  }
+  .footer-section .container .logo-icon a {
+    font-size: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
